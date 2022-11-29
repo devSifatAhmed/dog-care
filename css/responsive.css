@@ -1,0 +1,88 @@
+/* @media only screen and (max-width: 992px) {
+    .top-section{
+        padding: 10px;
+    }
+    .top-section h1 {
+        font-size: 50px;
+    }
+    .top-section{
+        font-size: 19px;
+    }
+}
+@media only screen and (max-width: 768px){
+    .top-section h1 {
+        font-size: 45px;
+    }
+    .top-section p {
+        font-size: 17px;
+    }
+    .vaterian h1 {
+        font-size: 39px;
+    }
+    .vaterian p {
+        font-size: 17px;
+    }
+    .title-section p {
+        font-size: 17px;
+    }
+    .title-section h4 {
+        font-size: 31px;
+    }
+    
+    .pt-4 {
+        padding-top: 10px !important;
+    }
+}
+     */
+@media only screen and (max-width: 360px){
+
+.container{
+    padding: 0px  25px !important;
+}
+.top-section h1 {
+    font-size: 35px;
+}
+.top-section p {
+    font-size: 17px;
+
+}
+.top-section p {
+    font-size: 17px;
+}
+.vaterian h1 {
+    font-size: 32px;
+}
+.vaterian p {
+    font-size: 17px;
+}
+.title-section  {
+    margin-top: 20px;
+}
+.title-section p {
+    font-size: 17px;
+    padding-left: 15px;
+}
+
+.title-section h4 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.pt-4 {
+    padding-top: 0px !important;
+}
+.pt-2 {
+    padding: 15px 0px;
+}
+.price{
+    
+    
+    padding-left:50px;
+}
+
+.footer .row {
+    padding-top: 20px;
+    text-align: center;
+
+}
+}

@@ -1,0 +1,208 @@
+/* css start */
+
+@font-face {
+    font-family:bold;
+    src: url(../font/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family:regular ;
+    src: url(../font/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family:semiBold ;
+    src: url(../font/Poppins-SemiBold.ttf);
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline:0;
+}
+.container{
+    width: 960px;
+}
+
+a, a:hover{
+    list-style: none;
+    text-decoration: none;
+}
+h1,h2,h3,h4,h5{
+    font-family: bold;
+}
+h1,h2,h3,h4,h5,ul,ol, button,input,p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-size: 17px;
+    color: #ffffff;
+    font-family:regular ; 
+    
+
+}
+
+/**********************
+ bacground
+***********************/
+.bgPrimary{
+    background-color: #daac00 !important;
+}
+/*header start */
+
+
+.navber ul li{
+    padding-left: 30px;
+   
+}
+.nav-link{
+    color: #ffffff;
+    font-family:semiBold ;
+}
+.form-control{
+    background-color: #fcc302;
+ 
+
+}
+
+/*header end */
+
+/* top section start */
+.top-section{
+    padding-top: 80px;
+    padding-bottom: 40px;
+    color: #ffffff;
+}
+.top-section h1{
+    font-size: 60px;
+    
+}
+.top-section p{
+    font-size: 22px;
+}
+.btn{
+    background-color: #2f5355;
+    border-radius: 10px !important;
+}
+
+.main-button{
+    background-color: #00bec9 !important;
+}
+.btn2{
+   background-color: #ffffff !important;
+}
+.btn2:hover{
+    background-color: #00bec9 !important;
+}
+
+
+
+/* top section end */
+/* vaterian section start */
+
+.vaterian{
+    color: #313243;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.vaterian h1{
+    font-size: 55px;
+    
+}
+.vaterian p{
+    font-size: 20px;
+}
+
+/* vaterian section end */
+
+/* title section start */
+
+.title-section{
+    background-color:#daac00 ;
+    color: #ffffff;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    color: #fff;
+}
+.title-section h4{
+    font-size: 40px;
+}
+.title-section p{
+
+    font-size: 20px;
+   
+}
+.buy-button{
+    background-color: #00bec9 !important;
+    border-radius: 30px !important;
+}
+
+/* title section end*/
+
+/* vectore team start  */
+
+
+.vectore-team{
+
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center !important;
+}
+.icon{
+  color: #daac00;
+}
+/* vectore team end */
+
+/* footer start */
+
+.footer{
+    background-color: black;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+.footer h3{
+    color: #fff;
+}
+.footer ul{
+    padding: 0;
+    margin: 0;
+}
+.footer ul li{
+    font-size: 20px;
+    list-style: none;
+
+    
+}
+.footer ul li a{
+   text-decoration: none;
+   color: #fff;
+   
+}
+.icon-button{
+    background-color: #00bec9 !important;
+    padding: 0;
+    margin: 0;
+}
+form{
+    display: flex;
+}
+form input{
+background-color: #daac00;
+width: 180px;
+border: none;
+height: 35px;
+
+}
+form button{
+    border:none;
+    outline: none;
+    width: 75px;
+    height: 35px;
+    background-color: #2f5355 !important;
+
+
+}
+.footer .icon{
+    padding-top: 20px;
+    color:#daac00;
+}
+
+/* footer end */
